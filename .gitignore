@@ -1,0 +1,41 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Rust/Cargo
+target/
+
+# Node.js
+frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sensitive files
+wallet.json
+wallet*.pem
+*.pem
+id_key.json
+verifier_key.json
+id_card_info.json
+
+# Build artifacts
+output/
+wasm/*.wasm
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

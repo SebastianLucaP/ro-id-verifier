@@ -1,0 +1,24 @@
+[package]
+name = "id-verifier"
+version = "0.0.0"
+edition = "2021"
+publish = false
+authors = ["you"]
+
+[lib]
+path = "src/id_verifier.rs"
+
+[dependencies.multiversx-sc]
+version = "0.62.0"
+
+[dev-dependencies]
+num-bigint = "0.4"
+
+[dev-dependencies.multiversx-sc-scenario]
+version = "0.62.0"
+
+[workspace]
+members = [
+    ".",
+    "meta",
+]
