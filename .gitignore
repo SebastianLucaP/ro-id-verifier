@@ -22,6 +22,7 @@ frontend/node_modules/
 *~
 
 # Sensitive files
+deploy.json
 wallet.json
 wallet*.pem
 *.pem
